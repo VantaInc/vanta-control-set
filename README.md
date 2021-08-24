@@ -13,4 +13,9 @@ The Vanta Control Set maps common compliance standards (SOC 2, HIPAA) from their
 
 ## Data Format
 
-[Placeholder]
+The [controls](/controls) directory contains a JSON file for each standard. This JSON file contains two top-level keys:
+
+- `standard` – detail about the standard including a list of Vanta control IDs per-section
+- `controlDetail` – detail about each control with ids that appeared in the `standard` section.
+
+We also provide a [JSON schema](/schema.json) which describes these files.

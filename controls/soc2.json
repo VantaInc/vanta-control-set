@@ -1,0 +1,1466 @@
+{
+  "standard": {
+    "name": "soc2",
+    "principles": [
+      {
+        "name": "Control Environment",
+        "section": "CC 1.0",
+        "requirements": [
+          {
+            "name": "COSO Principle 1: The entity demonstrates a commitment to integrity and ethical values.",
+            "section": "CC 1.1",
+            "controlIds": [
+              "background-checks-performed",
+              "code-of-conduct-acknowledged-contractors",
+              "code-of-conduct-acknowledged-employees",
+              "confidentiality-agreement-acknowledged-contractors",
+              "confidentiality-agreement-acknowledged-employees",
+              "performance-evaluations-conducted"
+            ]
+          },
+          {
+            "name": "COSO Principle 2: The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control.",
+            "section": "CC 1.2",
+            "controlIds": [
+              "board-of-directors-briefing",
+              "board-of-directors-charter",
+              "board-of-directors-expertise",
+              "board-of-directors-meeting"
+            ]
+          },
+          {
+            "name": "COSO Principle 3: Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives.",
+            "section": "CC 1.3",
+            "controlIds": [
+              "board-of-directors-charter",
+              "management-roles-responsibilities-defined",
+              "organization-structure-documented",
+              "role-responsibilities-specified"
+            ]
+          },
+          {
+            "name": "COSO Principle 4: The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives.",
+            "section": "CC 1.4",
+            "controlIds": [
+              "background-checks-performed",
+              "performance-evaluations-conducted",
+              "role-responsibilities-specified",
+              "security-awareness-training-completed"
+            ]
+          },
+          {
+            "name": "COSO Principle 5: The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives.",
+            "section": "CC 1.5",
+            "controlIds": [
+              "code-of-conduct-acknowledged-employees",
+              "performance-evaluations-conducted",
+              "role-responsibilities-specified"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Communication and Information",
+        "section": "CC 2.0",
+        "requirements": [
+          {
+            "name": "COSO Principle 13: The entity obtains or generates and uses relevant, quality information to support the functioning of internal control.",
+            "section": "CC 2.1",
+            "controlIds": [
+              "control-self-assessments-conducted",
+              "log-management-utilized",
+              "vulnerability-scans-conducted"
+            ]
+          },
+          {
+            "name": "COSO Principle 14: The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control. ",
+            "section": "CC 2.2",
+            "controlIds": [
+              "incident-response-policies-established",
+              "management-roles-responsibilities-defined",
+              "role-responsibilities-specified",
+              "security-awareness-training-completed",
+              "security-policies-established-reviewed",
+              "service-description-communicated",
+              "system-changes-communicated",
+              "whistleblower-policy-established"
+            ]
+          },
+          {
+            "name": "COSO Principle 15: The entity communicates with external parties regarding matters affecting the functioning of internal control.",
+            "section": "CC 2.3",
+            "controlIds": [
+              "commitments-externally-communicated",
+              "external-service-impact-notifications",
+              "external-support-resources",
+              "service-description-communicated",
+              "support-system-available",
+              "third-party-agreements"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Risk Assessment",
+        "section": "CC 3.0",
+        "requirements": [
+          {
+            "name": "COSO Principle 6: The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives.",
+            "section": "CC 3.1",
+            "controlIds": [
+              "risk-assessment-objectives",
+              "risk-assessment-program"
+            ]
+          },
+          {
+            "name": "COSO Principle 7: The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed.",
+            "section": "CC 3.2",
+            "controlIds": [
+              "continuity-disaster-recovery-plans-tested",
+              "risk-assessment-performed",
+              "risk-assessment-program",
+              "vendor-management-program-established"
+            ]
+          },
+          {
+            "name": "COSO Principle 8: The entity considers the potential for fraud in assessing risks to the achievement of objectives.",
+            "section": "CC 3.3",
+            "controlIds": [
+              "risk-assessment-performed",
+              "risk-assessment-program"
+            ]
+          },
+          {
+            "name": "COSO Principle 9: The entity identifies and assesses changes that could significantly impact the system of internal control.",
+            "section": "CC 3.4",
+            "controlIds": [
+              "configuration-management-system-established",
+              "penetration-testing",
+              "risk-assessment-performed",
+              "risk-assessment-program"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Monitoring Activities",
+        "section": "CC 4.0",
+        "requirements": [
+          {
+            "name": "COSO Principle 16: The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning.",
+            "section": "CC 4.1",
+            "controlIds": [
+              "control-self-assessments-conducted",
+              "penetration-testing",
+              "vendor-management-program-established",
+              "vulnerability-scans-conducted"
+            ]
+          },
+          {
+            "name": "COSO Principle 17: The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate.",
+            "section": "CC 4.2",
+            "controlIds": [
+              "control-self-assessments-conducted",
+              "vendor-management-program-established"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Control Activities",
+        "section": "CC 5.0",
+        "requirements": [
+          {
+            "name": "COSO Principle 10: The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels.",
+            "section": "CC 5.1",
+            "controlIds": [
+              "risk-assessment-program",
+              "security-policies-established-reviewed"
+            ]
+          },
+          {
+            "name": "COSO Principle 11: The entity also selects and develops general control activities over technology to support the achievement of objectives.",
+            "section": "CC 5.2",
+            "controlIds": [
+              "access-control-procedures",
+              "development-lifecycle-established",
+              "security-policies-established-reviewed"
+            ]
+          },
+          {
+            "name": "COSO Principle 12: The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action.",
+            "section": "CC 5.3",
+            "controlIds": [
+              "change-management-procedures",
+              "data-backup-procedures",
+              "data-retention-procedures-established",
+              "development-lifecycle-established",
+              "incident-response-policies-established",
+              "risk-assessment-objectives",
+              "risk-assessment-program",
+              "role-responsibilities-specified",
+              "security-policies-established-reviewed",
+              "vendor-management-program-established"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Logical and Physical Access Controls",
+        "section": "CC 6.0",
+        "requirements": [
+          {
+            "name": "The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity's objectives.",
+            "section": "CC 6.1",
+            "controlIds": [
+              "access-application-restricted",
+              "access-control-procedures",
+              "access-database-restricted-users",
+              "access-datastores-ssh",
+              "access-encryption-keys",
+              "access-firewalls",
+              "access-operating-system-restricted",
+              "access-production-network-restricted",
+              "access-role-based",
+              "access-ssh-required",
+              "changes-approval-required",
+              "data-classification-policy",
+              "data-encrypted",
+              "infra-network-segregation",
+              "policies-password-complexity",
+              "production-inventory-maintained",
+              "remote-access-mfa-enforced",
+              "remote-access-vpn-enforced",
+              "unique-account-authentication-enforced"
+            ]
+          },
+          {
+            "name": "Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized.",
+            "section": "CC 6.2",
+            "controlIds": [
+              "access-control-procedures",
+              "access-reviews",
+              "access-revoked-termination",
+              "access-role-based",
+              "access-ssh-required"
+            ]
+          },
+          {
+            "name": "The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives.",
+            "section": "CC 6.3",
+            "controlIds": [
+              "access-control-procedures",
+              "access-reviews",
+              "access-revoked-termination",
+              "access-role-based",
+              "access-ssh-required"
+            ]
+          },
+          {
+            "name": "The entity restricts physical access to facilities and protected information assets (for example, data center facilities,  back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives.",
+            "section": "CC 6.4",
+            "controlIds": [
+              "access-physical-datacenter",
+              "access-physical-review",
+              "access-physical-visitors",
+              "access-reviews"
+            ]
+          },
+          {
+            "name": "The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives.",
+            "section": "CC 6.5",
+            "controlIds": [
+              "access-revoked-termination",
+              "asset-disposal-procedures-utilized",
+              "customer-data-deleted upon-leave",
+              "data-retention-procedures-established"
+            ]
+          },
+          {
+            "name": "The entity implements logical access security measures to protect against threats from sources outside its system boundaries.",
+            "section": "CC 6.6",
+            "controlIds": [
+              "access-ssh-required",
+              "data-encrypted-in-transit",
+              "intrusion-detection-system",
+              "network-firewalls-reviewed",
+              "network-firewalls-utilized",
+              "remote-access-mfa-enforced",
+              "remote-access-vpn-enforced",
+              "support-infra-patched",
+              "system-network-hardening"
+            ]
+          },
+          {
+            "name": "The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives.",
+            "section": "CC 6.7",
+            "controlIds": [
+              "assets-portable-media-encrypted",
+              "data-encrypted-in-transit",
+              "MDM-system-utilized"
+            ]
+          },
+          {
+            "name": "The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives.",
+            "section": "CC 6.8",
+            "controlIds": [
+              "assets-anti-malware",
+              "development-lifecycle-established",
+              "support-infra-patched"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "System Operations",
+        "section": "CC 7.0",
+        "requirements": [
+          {
+            "name": "To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities.",
+            "section": "CC 7.1",
+            "controlIds": [
+              "change-management-procedures",
+              "configuration-management-system-established",
+              "policies-incident-monitoring",
+              "risk-assessment-performed",
+              "vulnerability-scans-conducted"
+            ]
+          },
+          {
+            "name": "The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity's ability to meet its objectives; anomalies are analyzed to determine whether they represent security events.",
+            "section": "CC 7.2",
+            "controlIds": [
+              "intrusion-detection-system",
+              "log-management-utilized",
+              "penetration-testing",
+              "policies-incident-monitoring",
+              "support-infra-patched",
+              "system-threshold-monitoring",
+              "vulnerability-scans-conducted"
+            ]
+          },
+          {
+            "name": "The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures.",
+            "section": "CC 7.3",
+            "controlIds": [
+              "incident-response-policies-established",
+              "policies-incident-management"
+            ]
+          },
+          {
+            "name": "The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate.",
+            "section": "CC 7.4",
+            "controlIds": [
+              "incident-response-plan-tested",
+              "incident-response-policies-established",
+              "policies-incident-management",
+              "support-infra-patched",
+              "vulnerability-scans-conducted"
+            ]
+          },
+          {
+            "name": "The entity identifies, develops, and implements activities to recover from identified security incidents.",
+            "section": "CC 7.5",
+            "controlIds": [
+              "continuity-disaster-recovery-plans-tested",
+              "incident-response-plan-tested",
+              "incident-response-policies-established",
+              "policies-incident-management"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Change Management",
+        "section": "CC 8.0",
+        "requirements": [
+          {
+            "name": "The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives.",
+            "section": "CC 8.1",
+            "controlIds": [
+              "change-management-procedures",
+              "changes-approval-required",
+              "development-lifecycle-established",
+              "penetration-testing",
+              "support-infra-patched",
+              "system-network-hardening",
+              "vulnerability-scans-conducted"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Risk Mitigation",
+        "section": "CC 9.0",
+        "requirements": [
+          {
+            "name": "The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions.",
+            "section": "CC 9.1",
+            "controlIds": [
+              "continuity-and-disaster-recovery-plans-established",
+              "cybersecurity-insurance-maintained",
+              "risk-assessment-performed",
+              "risk-assessment-program"
+            ]
+          },
+          {
+            "name": "The entity assesses and manages risks associated with vendors and business partners.",
+            "section": "CC 9.2",
+            "controlIds": [
+              "third-party-agreements",
+              "vendor-management-program-established"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Additional Criteria for Availability",
+        "section": "A 1",
+        "requirements": [
+          {
+            "name": "The entity maintains, monitors, and evaluates current processing capacity and use of system components (infrastructure, data, and software) to manage capacity demand and to enable the implementation of additional capacity to help meet its objectives.",
+            "section": "A 1.1",
+            "controlIds": [
+              "system-capacity-reviewed",
+              "system-threshold-monitoring"
+            ]
+          },
+          {
+            "name": "The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives.",
+            "section": "A 1.2",
+            "controlIds": [
+              "continuity-disaster-recovery-plans-tested",
+              "data-backup-procedures",
+              "database-replication-utilized",
+              "environmental-monitoring-devices-implemented",
+              "environmental-security-inspected-annually",
+              "production-data-backups-conducted",
+              "risk-assessment-performed",
+              "risk-assessment-program",
+              "system-multiple-availability-zones"
+            ]
+          },
+          {
+            "name": "The entity tests recovery plan procedures supporting system recovery to meet its objectives.",
+            "section": "A 1.3",
+            "controlIds": [
+              "continuity-and-disaster-recovery-plans-established",
+              "continuity-disaster-recovery-plans-tested",
+              "data-backup-procedures",
+              "intrusion-detection-system"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Additional Criteria for Confidentiality",
+        "section": "C 1",
+        "requirements": [
+          {
+            "name": "The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality.",
+            "section": "C 1.1",
+            "controlIds": [
+              "data-classification-policy",
+              "data-retention-procedures-established",
+              "production-data-segmented",
+              "third-party-agreements",
+              "unique-account-authentication-enforced"
+            ]
+          },
+          {
+            "name": "The entity disposes of confidential information to meet the entity’s objectives related to confidentiality.",
+            "section": "C 1.2",
+            "controlIds": [
+              "asset-disposal-procedures-utilized",
+              "customer-data-deleted upon-leave"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Additional Criteria for Processing Integrity",
+        "section": "PI 1",
+        "requirements": [
+          {
+            "name": "The entity obtains or generates, uses, and communicates relevant, quality information regarding the objectives related to processing, including definitions of data processed and product and service specifications, to support the use of products and services.",
+            "section": "PI 1.1",
+            "controlIds": [
+              "commitments-externally-communicated",
+              "external-support-resources",
+              "service-description-communicated"
+            ]
+          },
+          {
+            "name": "The entity implements policies and procedures over system inputs, including controls over completeness and accuracy, to result in products, services, and reporting to meet the entity’s objectives.",
+            "section": "PI 1.2",
+            "controlIds": [
+              "customer-data-retained",
+              "development-lifecycle-established",
+              "policies-passwords-enforced",
+              "system-activity-logged",
+              "system-data-input-monitoring"
+            ]
+          },
+          {
+            "name": "The entity implements policies and procedures over system processing to result in products, services, and reporting to meet the entity’s objectives.",
+            "section": "PI 1.3",
+            "controlIds": [
+              "development-lifecycle-established",
+              "processing-issues-automatically-alerted",
+              "system-activity-logged",
+              "system-customer-input-validation",
+              "system-data-input-monitoring",
+              "system-threshold-monitoring"
+            ]
+          },
+          {
+            "name": "The entity implements policies and procedures to make available or deliver output completely, accurately, and timely in accordance with specifications to meet the entity’s objectives.",
+            "section": "PI 1.4",
+            "controlIds": [
+              "customer-data-retained",
+              "customer-transactions-portal-available",
+              "data-encrypted",
+              "processing-alerts-available",
+              "processing-issues-automatically-alerted",
+              "system-data-input-monitoring"
+            ]
+          },
+          {
+            "name": "The entity implements policies and procedures to store inputs, items in processing, and outputs completely, accurately, and timely in accordance with system specifications to meet the entity’s objectives.",
+            "section": "PI 1.5",
+            "controlIds": [
+              "access-production-network-restricted",
+              "continuity-disaster-recovery-plans-tested",
+              "customer-data-retained",
+              "customer-transaction-modifications-restricted"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Notice and Communication of Objectives Related to Privacy",
+        "section": "P 1.0",
+        "requirements": [
+          {
+            "name": "The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy.",
+            "section": "P 1.1",
+            "controlIds": [
+              "personal-information-collection-changes-communicated",
+              "policies-privacy-policy",
+              "privacy-policy-available",
+              "privacy-policy-reviewed"
+            ]
+          },
+          {
+            "name": "The entity's privacy commitments are communicated to external users, as appropriate, and those commitments and the associated system requirements are communicated to internal users to enable them to carry out their responsibilities.",
+            "section": "P 1.2",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Choice and Consent",
+        "section": "P 2.0",
+        "requirements": [
+          {
+            "name": "The entity communicates choices available regarding the collection, use, retention, disclosure, and disposal of personal information to the data subjects and the consequences, if any, of each choice. Explicit consent for the collection, use, retention, disclosure, and disposal of personal information is obtained from data subjects or other authorized persons, if required. Such consent is obtained only for the intended purpose of the information to meet the entity’s objectives related to privacy. The entity’s basis for determining implicit consent for the collection, use, retention, disclosure, and disposal of personal information is documented.",
+            "section": "P 2.1",
+            "controlIds": [
+              "policies-privacy-policy",
+              "privacy-explicity-consent-obtained",
+              "privacy-individual-consent-obtained",
+              "privacy-new-information-purpose-consent",
+              "privacy-opt-out"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Collection",
+        "section": "P 3.0",
+        "requirements": [
+          {
+            "name": "Personal information is collected consistent with the entity’s objectives related to privacy.",
+            "section": "P 3.1",
+            "controlIds": [
+              "personal-information-collection-changes-communicated",
+              "personal-information-collection-reviewed",
+              "personal-information-reliability-verified",
+              "privacy-policies-personal-information-use-reviewed"
+            ]
+          },
+          {
+            "name": "For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy.",
+            "section": "P 3.2",
+            "controlIds": ["privacy-explicity-consent-obtained"]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Use, Retention, and Disposal",
+        "section": "P 4.0",
+        "requirements": [
+          {
+            "name": "The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy.",
+            "section": "P 4.1",
+            "controlIds": ["privacy-policies-personal-information-use-reviewed"]
+          },
+          {
+            "name": "The entity retains personal information consistent with the entity’s objectives related to privacy.",
+            "section": "P 4.2",
+            "controlIds": [
+              "data-retention-procedures-established",
+              "privacy-data-retained"
+            ]
+          },
+          {
+            "name": "The entity securely disposes of personal information to meet the entity’s objectives related to privacy.",
+            "section": "P 4.3",
+            "controlIds": [
+              "data-deletion-requests-handled",
+              "privacy-inquiries-handled",
+              "privacy-sensitive-data-disposal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Access",
+        "section": "P 5.0",
+        "requirements": [
+          {
+            "name": "The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy.",
+            "section": "P 5.1",
+            "controlIds": [
+              "policies-privacy-policy",
+              "privacy-identity-verification",
+              "privacy-policy-established"
+            ]
+          },
+          {
+            "name": "The entity corrects, amends, or appends personal information based on information provided by data subjects and communicates such information to third parties, as committed or required, to meet the entity’s objectives related to privacy. If a request for correction is denied, data subjects are informed of the denial and reason for such denial to meet the entity’s objectives related to privacy.",
+            "section": "P 5.2",
+            "controlIds": [
+              "personal-information-changes-communicated",
+              "privacy-policy-established"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Disclosure and Notification",
+        "section": "P 6.0",
+        "requirements": [
+          {
+            "name": "The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy.",
+            "section": "P 6.1",
+            "controlIds": [
+              "legal-personal-information-tracked",
+              "policies-privacy-policy",
+              "privacy-individual-consent-obtained",
+              "privacy-new-information-purpose-consent",
+              "third-party-agreements",
+              "third-party-privacy-documentation-reviewed",
+              "vendor-management-program-established"
+            ]
+          },
+          {
+            "name": "The entity creates and retains a complete, accurate, and timely record of authorized disclosures of personal information to meet the entity’s objectives related to privacy.",
+            "section": "P 6.2",
+            "controlIds": ["third-party-privacy-documentation-reviewed"]
+          },
+          {
+            "name": "The entity creates and retains a complete, accurate, and timely record of detected or reported unauthorized disclosures (including breaches) of personal information to meet the entity’s objectives related to privacy.",
+            "section": "P 6.3",
+            "controlIds": [
+              "incident-response-policies-established",
+              "policies-incident-management"
+            ]
+          },
+          {
+            "name": "The entity obtains privacy commitments from vendors and other third parties who have access to personal information to meet the entity’s objectives related to privacy. The entity assesses those parties’ compliance on a periodic and as-needed basis and takes corrective action, if necessary.",
+            "section": "P 6.4",
+            "controlIds": [
+              "incident-response-policies-established",
+              "policies-incident-management",
+              "third-party-agreements",
+              "third-party-privacy-documentation-reviewed",
+              "vendor-management-program-established"
+            ]
+          },
+          {
+            "name": "The entity obtains commitments from vendors and other third parties with access to personal information to notify the entity in the event of actual or suspected unauthorized disclosures of personal information. Such notifications are reported to appropriate personnel and acted on in accordance with established incident response procedures to meet the entity’s objectives related to privacy.",
+            "section": "P 6.5",
+            "controlIds": [
+              "incident-response-policies-established",
+              "policies-incident-management",
+              "third-party-agreements"
+            ]
+          },
+          {
+            "name": "The entity provides notification of breaches and incidents to affected data subjects, regulators, and others to meet the entity’s objectives related to privacy.",
+            "section": "P 6.6",
+            "controlIds": [
+              "incident-response-policies-established",
+              "policies-incident-management"
+            ]
+          },
+          {
+            "name": "The entity provides data subjects with an accounting of the personal information held and disclosure of the data subjects’ personal information, upon the data subjects’ request, to meet the entity’s objectives related to privacy.",
+            "section": "P 6.7",
+            "controlIds": [
+              "privacy-data-sharing",
+              "privacy-identity-verification",
+              "privacy-inquiries-handled",
+              "third-party-privacy-documentation-reviewed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Quality",
+        "section": "P 7.0",
+        "requirements": [
+          {
+            "name": "The entity collects and maintains accurate, up-to-date, complete, and relevant personal information to meet the entity’s objectives related to privacy.",
+            "section": "P 7.1",
+            "controlIds": [
+              "personal-data-updates",
+              "privacy-policy-established",
+              "third-party-privacy-documentation-reviewed"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Privacy Criteria Related to Monitoring and Enforcement",
+        "section": "P 8.0",
+        "requirements": [
+          {
+            "name": "The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner.",
+            "section": "P 8.1",
+            "controlIds": [
+              "board-of-directors-briefing",
+              "control-self-assessments-conducted",
+              "policies-incident-management",
+              "privacy-complaints-procedures",
+              "privacy-policy-established",
+              "risk-assessment-program",
+              "third-party-privacy-documentation-reviewed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "controlDetail": [
+    {
+      "id": "access-application-restricted",
+      "name": "Production application access restricted",
+      "description": "The company restricts privileged access to the application to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-control-procedures",
+      "name": "Access control procedures established",
+      "description": "The company's access control policy documents the requirements for the following access control functions: \n- adding new users;\n- modifying users; and/or \n- removing an existing user's access.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "access-database-restricted-users",
+      "name": "Production database access restricted",
+      "description": "The company restricts privileged access to databases to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-datastores-ssh",
+      "name": "Unique production database authentication enforced",
+      "description": "The company requires authentication to production datastores to use authorized secure authentication mechanisms, such as unique SSH key.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-encryption-keys",
+      "name": "Encryption key access restricted",
+      "description": "The company restricts privileged access to encryption keys to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-firewalls",
+      "name": "Firewall access restricted",
+      "description": "The company restricts privileged access to the firewall to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-operating-system-restricted",
+      "name": "Production OS access restricted",
+      "description": "The company restricts privileged access to the operating system to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-physical-datacenter",
+      "name": "Physical access processes established",
+      "description": "The company has processes in place for granting, changing, and terminating physical access to company data centers based on an authorization from control owners.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "access-physical-review",
+      "name": "Data center access reviewed",
+      "description": "The company reviews access to the data centers at least annually.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "access-physical-visitors",
+      "name": "Visitor procedures enforced",
+      "description": "The company requires visitors to sign-in, wear a visitor badge, and be escorted by an authorized employee when accessing the data center or secure areas.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "access-production-network-restricted",
+      "name": "Production network access restricted",
+      "description": "The company restricts privileged access to the production network to authorized users with a business need.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-reviews",
+      "name": "Access reviews conducted",
+      "description": "The company conducts quarterly access reviews for the in-scope system components to help ensure that access is restricted appropriately. Required changes are tracked to completion.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "access-revoked-termination",
+      "name": "Access revoked upon termination",
+      "description": "The company completes termination checklists to ensure that access is revoked for terminated employees within SLAs.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "access-role-based",
+      "name": "Access requests required",
+      "description": "The company ensures that user access to in-scope system components is based on job role and function or requires a documented access request form and manager approval prior to access being provisioned.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "access-ssh-required",
+      "name": "Unique network system authentication enforced",
+      "description": "The company requires authentication to the \"production network\" to use unique usernames and passwords or authorized Secure Socket Shell (SSH) keys.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "asset-disposal-procedures-utilized",
+      "name": "Asset disposal procedures utilized",
+      "description": "The company has electronic media containing confidential information purged or destroyed in accordance with best practices, and certificates of destruction are issued for each device destroyed.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "assets-anti-malware",
+      "name": "Anti-malware technology utilized",
+      "description": "The company deploys anti-malware technology to environments commonly susceptible to malicious attacks and configures this to be updated routinely, logged, and installed on all relevant systems.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "assets-portable-media-encrypted",
+      "name": "Portable media encrypted",
+      "description": "The company encrypts portable and removable media devices when used.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "background-checks-performed",
+      "name": "Employee background checks performed",
+      "description": "The company performs background checks on new employees.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "board-of-directors-briefing",
+      "name": "Board oversight briefings conducted",
+      "description": "The company's board of directors or a relevant subcommittee is briefed by senior management at least annually on the state of the company's cybersecurity and privacy risk. The board provides feedback and direction to management as needed.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "board-of-directors-charter",
+      "name": "Board charter documented",
+      "description": "The company's board of directors has a documented charter that outlines its oversight responsibilities for internal control.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "board-of-directors-expertise",
+      "name": "Board expertise developed",
+      "description": "The company's board members have sufficient expertise to oversee management's ability to design, implement and operate information security controls. The board engages third-party information security experts and consultants as needed.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "board-of-directors-meeting",
+      "name": "Board meetings conducted",
+      "description": "The company's board of directors meets at least annually and maintains formal meeting minutes. The board includes directors that are independent of the company.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "change-management-procedures",
+      "name": "Change management procedures enforced",
+      "description": "The company requires changes to software and infrastructure components of the service to be authorized, formally documented, tested, reviewed, and approved prior to being implemented in the production environment.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "changes-approval-required",
+      "name": "Production deployment access restricted",
+      "description": "The company restricts access to migrate changes to production to authorized personnel.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "code-of-conduct-acknowledged-contractors",
+      "name": "Code of Conduct acknowledged by contractors",
+      "description": "The company requires contractor agreements to include a code of conduct or reference to the company code of conduct.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "code-of-conduct-acknowledged-employees",
+      "name": "Code of Conduct acknowledged by employees and enforced",
+      "description": "The company requires employees to acknowledge a code of conduct at the time of hire. Employees who violate the code of conduct are subject to disciplinary actions in accordance with a disciplinary policy.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "commitments-externally-communicated",
+      "name": "Company commitments externally communicated",
+      "description": "The company's security commitments are communicated to customers in Master Service Agreements (MSA) or Terms of Service (TOS).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "confidentiality-agreement-acknowledged-contractors",
+      "name": "Confidentiality Agreement acknowledged by contractors",
+      "description": "The company requires contractors to sign a confidentiality agreement at the time of engagement.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "confidentiality-agreement-acknowledged-employees",
+      "name": "Confidentiality Agreement acknowledged by employees",
+      "description": "The company requires employees to sign a confidentiality agreement during onboarding.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "configuration-management-system-established",
+      "name": "Configuration management system established",
+      "description": "The company has a configuration management procedure in place to ensure that system configurations are deployed consistently throughout the environment.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "continuity-and-disaster-recovery-plans-established",
+      "name": "Continuity and Disaster Recovery plans established",
+      "description": "The company has Business Continuity and Disaster Recovery Plans in place that outline communication plans in order to maintain information security continuity in the event of the unavailability of key personnel.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "continuity-disaster-recovery-plans-tested",
+      "name": "Continuity and disaster recovery plans tested",
+      "description": "The company has a documented business continuity/disaster recovery (BC/DR) plan and tests it at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "control-self-assessments-conducted",
+      "name": "Control self-assessments conducted",
+      "description": "The company performs control self-assessments at least annually to gain assurance that controls are in place and operating effectively. Corrective actions are taken based on relevant findings.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "customer-data-deleted upon-leave",
+      "name": "Customer data deleted upon leave",
+      "description": "The company purges or removes customer data containing confidential information from the application environment, in accordance with best practices, when customers leave the service.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "customer-data-retained",
+      "name": "Customer data retained",
+      "description": "The company retains customer transaction data for the life of a customer account. No historic transaction data is purged until the customer account is deleted.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "customer-transaction-modifications-restricted",
+      "name": "Customer transaction modifications restricted",
+      "description": "The company ensures that neither customers nor administrators have the ability to modify customer transaction data within the production application.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "customer-transactions-portal-available",
+      "name": "Customer transaction portal available",
+      "description": "The company provides customers with customer portals that contain dashboards, reports, or history for transactional and account information.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "cybersecurity-insurance-maintained",
+      "name": "Cybersecurity insurance maintained",
+      "description": "The company maintains cybersecurity insurance to mitigate the financial impact of business disruptions.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "data-backup-procedures",
+      "name": "Backup processes established",
+      "description": "The company's data backup policy documents requirements for backup and recovery of customer data.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "data-classification-policy",
+      "name": "Data classification policy established",
+      "description": "The company has a data classification policy in place to help ensure that confidential data is properly secured and restricted to authorized personnel.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "data-deletion-requests-handled",
+      "name": "Data deletion requests handled",
+      "description": "The company validates deletion requests and once confirmed are flagged and the requested information is deleted, in accordance with applicable laws and regulations.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-encrypted",
+      "name": "Data encryption utilized",
+      "description": "The company's datastores housing sensitive customer data are encrypted at rest.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-encrypted-in-transit",
+      "name": "Data transmission encrypted",
+      "description": "The company uses secure data transmission protocols to encrypt confidential and sensitive data when transmitted over public networks.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-retention-procedures-established",
+      "name": "Data retention procedures established",
+      "description": "The company has formal retention and disposal procedures in place to guide the secure retention and disposal of company and customer data.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "database-replication-utilized",
+      "name": "Database replication utilized",
+      "description": "The company's databases are replicated to a secondary data center in real-time. Alerts are configured to notify administrators if replication fails.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "development-lifecycle-established",
+      "name": "Development lifecycle established",
+      "description": "The company has a formal systems development life cycle (SDLC) methodology in place that governs the development, acquisition, implementation, changes (including emergency changes), and maintenance of information systems and related technology requirements.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "environmental-monitoring-devices-implemented",
+      "name": "Environmental monitoring devices implemented",
+      "description": "The company has environmental monitoring devices in place and configured to automatically generate an alert to management for environmental incidents.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "environmental-security-inspected-annually",
+      "name": "Environmental security inspected",
+      "description": "The company has maintenance inspections of environmental security measures at the company data centers performed at least annually.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "external-service-impact-notifications",
+      "name": "System changes externally communicated",
+      "description": "The company notifies customers of critical system changes that may affect their processing.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "external-support-resources",
+      "name": "External support resources available",
+      "description": "The company provides guidelines and technical support resources relating to system operations to customers.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "incident-response-plan-tested",
+      "name": "Incident response plan tested",
+      "description": "The company tests their incident response plan at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "incident-response-policies-established",
+      "name": "Incident response policies established",
+      "description": "The company has security and privacy incident response policies and procedures that are documented and communicated to authorized users.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "infra-network-segregation",
+      "name": "Network segmentation implemented",
+      "description": "The company's network is segmented to prevent unauthorized access to customer data.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "intrusion-detection-system",
+      "name": "Intrusion detection system utilized",
+      "description": "The company uses an intrusion detection system to provide continuous monitoring of the company's network and early detection of potential security breaches.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "legal-personal-information-tracked",
+      "name": "Legal personal information tracked",
+      "description": "The company has personal information that is disclosed for legal purposes logged, tracked, and maintained in the company's designated tracking system for historical and audit purposes.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "log-management-utilized",
+      "name": "Log management utilized",
+      "description": "The company utilizes a log management tool to identify events that may have a potential impact on the company's ability to achieve its security objectives.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "management-roles-responsibilities-defined",
+      "name": "Management roles and responsibilities defined",
+      "description": "The company management has established defined roles and responsibilities to oversee the design and implementation of information security controls.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "MDM-system-utilized",
+      "name": "MDM system utilized",
+      "description": "The company has a mobile device management (MDM) system in place to centrally manage mobile devices supporting the service.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "network-firewalls-reviewed",
+      "name": "Network firewalls reviewed",
+      "description": "The company reviews its firewall rulesets at least annually. Required changes are tracked to completion.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "network-firewalls-utilized",
+      "name": "Network firewalls utilized",
+      "description": "The company uses firewalls and configures them to prevent unauthorized access.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "organization-structure-documented",
+      "name": "Organization structure documented",
+      "description": "The company maintains an organizational chart that describes the organizational structure and reporting lines.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "penetration-testing",
+      "name": "Penetration testing performed",
+      "description": "The company's penetration testing is performed at least annually. A remediation plan is developed and changes are implemented to remediate vulnerabilities in accordance with SLAs.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "performance-evaluations-conducted",
+      "name": "Performance evaluations conducted",
+      "description": "The company managers are required to complete performance evaluations for direct reports at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "personal-data-updates",
+      "name": "Personal data update mechanisms available",
+      "description": "Individuals, customers, or designated account holders can update their personal information to ensure it is accurate and complete through the use of a customer web portal or by contacting the organization using the methods provided in the privacy policy.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "personal-information-changes-communicated",
+      "name": "Personal information changes communicated",
+      "description": "The company communicates corrections or erasures of an individual's personal information to authorized users and relevant third parties to whom the personal information has been shared or transferred.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "personal-information-collection-changes-communicated",
+      "name": "Personal information collection changes communicated",
+      "description": "The company provides notice when or before personal information is directly collected from the individual and/or used for a new purpose not previously identified in the privacy policies, and within a reasonable time after new information is acquired or any changes to their privacy policies or practices have been approved.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "personal-information-collection-reviewed",
+      "name": "Personal information collection reviewed",
+      "description": "The company's management and/or legal counsel reviews and approves the methods for the collection of personal information prior to implementation to ensure that information is obtained in a fair and lawful manner.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "personal-information-reliability-verified",
+      "name": "Personal information reliability verified",
+      "description": "The company's management reviews and approves the sources of personal information, other than the individual data subject (third-parties), to ensure that sources are reliable and that the information obtained by the third-parties has been collected in a fair and lawful manner.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-incident-management",
+      "name": "Incident management procedures followed",
+      "description": "The company's security and privacy incidents are logged, tracked, resolved, and communicated to affected or relevant parties by management according to the company's security incident response policy and procedures.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-incident-monitoring",
+      "name": "Vulnerability and system monitoring procedures established",
+      "description": "The company's formal policies outline the requirements for the following functions related to IT / Engineering: \n- vulnerability management;\n- system monitoring.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-password-complexity",
+      "name": "Password policy enforced",
+      "description": "The company requires passwords for in-scope system components to be configured according to the company's policy.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "policies-passwords-enforced",
+      "name": "Password policies enforced",
+      "description": "The company has established password policies with minimum system password requirements. The system validates that requirements are met or provides an error message.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "policies-privacy-policy",
+      "name": "Privacy policy maintained",
+      "description": "The company has established a privacy policy that uses plain and simple language, is clearly dated, and provides information related to the company's practices and purposes for collecting, processing, handling, and disclosing personal information including:\n- organizational operating jurisdictions;\n- an individual's choice and consent for the collection, use, and disclosure of personal information;\n- an individual's right to access, update or remove personal information;\n- a process for individuals to exercise their rights;\n- requirements to only provide the essential information needed for the service;\n- types or categories of information collected;\n- purposes for the collection of information;\n- methods of collection (cookies or other tracking techniques, etc.);\n- consequences for not providing or withdrawing the essential information;\n- sources of information (third parties, direct collection, etc.);\n- types or categories of third parties (sources and disclosures);\n- the purpose for disclosure of information to third parties.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-complaints-procedures",
+      "name": "Privacy compliant procedures established",
+      "description": "The company has documented processes and procedures in place to ensure that any privacy-related complaints are addressed, and the resolution is documented in the company's designated tracking system and communicated to the individual.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-data-retained",
+      "name": "Privacy data retained",
+      "description": "The company's retention requirements are documented, and personal information is retained, as required, for business purposes, including to fulfill the purposes related to its collection, and/or by applicable laws or regulations.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-data-sharing",
+      "name": "Private data shared upon request",
+      "description": "The company provides requested information, after verification, in a timely manner in either a portable electronic format or by mail, in accordance with applicable law.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-explicity-consent-obtained",
+      "name": "Explicit consent obtained",
+      "description": "The company obtains, documents, and retains the explicit consent, in accordance with applicable legal and regulatory requirements, directly from an individual prior to the collection, use, or disclosure of sensitive information.\nConsent may be obtained through the use of either a check box, signed form.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "privacy-identity-verification",
+      "name": "Identity verification conducted",
+      "description": "The company, prior to granting an individual the ability to access and review personal information, authenticates the individuals or their authorized representative's identity, with an appropriate level of assurance, and verifies such access is not prohibited by law.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-individual-consent-obtained",
+      "name": "User data collection consent obtained",
+      "description": "The company obtains an individual’s consent and preferences at or before the time of collection, maintains documentation in electronic and/or written format, and implements the individuals selected preferences, for information collection, use, and disclosure, in a timely fashion.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-inquiries-handled",
+      "name": "Privacy inquiries handled",
+      "description": "The company has processes and procedures in place to capture, log and verify requests, inquires, complaints, or disputes related to the individual's privacy rights of access, review, modification, and/or deletion of personal information. Access requests for personal information are logged within the company's designated tracking system for historical and audit purposes.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-new-information-purpose-consent",
+      "name": "Privacy information purpose communicated",
+      "description": "The company documents new purposes for previously collected information, notifies individuals of the new purpose and use of previously collected information, obtains and records an individual’s consent for use or withdrawal, and ensures consented information is being used in accordance with the documented new purpose.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "privacy-opt-out",
+      "name": "Non-essential privacy information opt-out available",
+      "description": "Individuals are able to opt-in and/or out of the use of non-essential cookies, and the company does not store, alter, or copy any personal or other information for which consent has not been obtained.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "privacy-policies-personal-information-use-reviewed",
+      "name": "Personal information policies and procedures established",
+      "description": "The company reviews policies and procedures as needed or when changes occur and updates them accordingly to ensure that personal information collected is: \n- identified as either essential or optional; \n- performed with consent (implicit or explicit) in accordance with legal and regulatory requirements; and\n- used in alignment with and limited to the purposes identified in the privacy notice.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-policy-available",
+      "name": "Privacy policy available",
+      "description": "The company has a privacy policy available to customers, employees, and/or relevant third parties who need them before and/or at the time information is collected from the individual.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-policy-established",
+      "name": "Privacy policy established",
+      "description": "The company has a privacy policy is in place that documents and clearly communicates to individuals the extent of personal information collected, the company's obligations, the individual's rights to access, update, or erase their personal information, and an up-to-date point of contact where individuals can direct their questions, requests or concerns.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-policy-reviewed",
+      "name": "Privacy policy reviewed",
+      "description": "The company reviews the privacy policy as needed or when changes occur and updates it accordingly to ensure it is consistent with the applicable laws, regulations, and appropriate standards.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "privacy-sensitive-data-disposal",
+      "name": "Personal information securely disposed",
+      "description": "The company securely disposes of personal information in accordance with documented policies and procedures. Personal information is either anonymized, securely erased and/or destroyed when no longer required.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "processing-alerts-available",
+      "name": "Processing alerts available",
+      "description": "The company's customers can opt to receive alert emails for account transactions or modifications to help ensure that they are processed correctly.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "processing-issues-automatically-alerted",
+      "name": "Processing issues automatically alerted",
+      "description": "The company has automated transactions to move files and data between different system components. Errors that occur during the creation or transmission of critical data generate an alert to system administrators.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "production-data-backups-conducted",
+      "name": "Production data backups conducted",
+      "description": "The company performs periodic backups for production data. Data is backed up to a different location than the production system.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "production-data-segmented",
+      "name": "Production data segmented",
+      "description": "The company prohibits confidential or sensitive customer data, by policy, from being used or stored in non-production systems/environments.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "production-inventory-maintained",
+      "name": "Production inventory maintained",
+      "description": "The company maintains a formal inventory of production system assets.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "remote-access-mfa-enforced",
+      "name": "Remote access MFA enforced",
+      "description": "The company's production systems can only be remotely accessed by authorized employees possessing a valid multi-factor authentication (MFA) method.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "remote-access-vpn-enforced",
+      "name": "Remote access encrypted enforced",
+      "description": "The company's production systems can only be remotely accessed by authorized employees via an approved encrypted connection.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "risk-assessment-objectives",
+      "name": "Risk assessment objectives specified",
+      "description": "The company specifies its objectives to enable the identification and assessment of risk related to the objectives.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "risk-assessment-performed",
+      "name": "Risks assessments performed",
+      "description": "The company's risk assessments are performed at least annually. As part of this process, threats and changes (environmental, regulatory, and technological) to service commitments are identified and the risks are formally assessed. The risk assessment includes a consideration of the potential for fraud and how fraud may impact the achievement of objectives.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "risk-assessment-program",
+      "name": "Risk management program established",
+      "description": "The company has a documented risk management program is in place that includes guidance on the identification of potential threats, rating the significance of the risks associated with the identified threats, and mitigation strategies for those risks.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "role-responsibilities-specified",
+      "name": "Roles and responsibilities specified",
+      "description": "Roles and responsibilities for the design, development, implementation, operation, maintenance, and monitoring of information security controls are formally assigned in job descriptions and/or the Roles and Responsibilities policy.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-awareness-training-completed",
+      "name": "Security awareness training implemented",
+      "description": "The company requires employees to complete security awareness training within thirty days of hire and annually thereafter.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-policies-established-reviewed",
+      "name": "Security policies established and reviewed",
+      "description": "The company's information security policies and procedures are documented and reviewed at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "service-description-communicated",
+      "name": "Service description communicated",
+      "description": "The company provides a description of its products and services to internal and external users.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "support-infra-patched",
+      "name": "Service infrastructure maintained",
+      "description": "The company has infrastructure supporting the service patched as a part of routine maintenance and as a result of identified vulnerabilities to help ensure that servers supporting the service are hardened against security threats.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "support-system-available",
+      "name": "Support system available",
+      "description": "The company has an external-facing support system in place that allows users to report system information on failures, incidents, concerns, and other complaints to appropriate personnel.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-activity-logged",
+      "name": "System activity logged",
+      "description": "The company captures system activity, including user activity, in transaction logs.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-capacity-reviewed",
+      "name": "System capacity reviewed",
+      "description": "The company evaluates system capacity on an ongoing basis, and system changes are implemented to help ensure that processing capacity can meet demand.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-changes-communicated",
+      "name": "System changes communicated",
+      "description": "The company communicates system changes to authorized internal users.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "system-customer-input-validation",
+      "name": "Processed transactions verified",
+      "description": "The company's system validates that completed customer transactions align with the customer's scheduled transaction. Customers and/or account managers are notified of any errors or delinquencies.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-data-input-monitoring",
+      "name": "Processing data inputs validated",
+      "description": "The company's system assesses data inputs for compliance with input requirements. On-screen alerts are generated whenever there are issues with transaction inputs or processing.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-multiple-availability-zones",
+      "name": "Production multi-availability zones established",
+      "description": "The company has a multi-location strategy for production environments employed to permit the resumption of operations at other company data centers in the event of loss of a facility.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "system-network-hardening",
+      "name": "Network and system hardening standards maintained",
+      "description": "The company's network and system hardening standards are documented, based on industry best practices, and reviewed at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "system-threshold-monitoring",
+      "name": "Infrastructure performance monitored",
+      "description": "An infrastructure monitoring tool is utilized to monitor systems, infrastructure, and performance and generates alerts when specific predefined thresholds are met.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "third-party-agreements",
+      "name": "Third-party agreements established",
+      "description": "The company has written agreements in place with vendors and related third-parties. These agreements include confidentiality and privacy commitments applicable to that entity.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "third-party-privacy-documentation-reviewed",
+      "name": "Third party privacy documentation reviewed",
+      "description": "The company has established, maintains, and reviews, at least annually, documentation on the nature, extent, and purpose of personal information collected, processed, stored, and/or disclosed to third parties.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "unique-account-authentication-enforced",
+      "name": "Unique account authentication enforced",
+      "description": "The company requires authentication to systems and applications to use unique username and password or authorized Secure Socket Shell (SSH) keys.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "vendor-management-program-established",
+      "name": "Vendor management program established",
+      "description": "The company has a vendor management program in place. Components of this program include:\n- critical third-party vendor inventory;\n- vendor's security and privacy requirements; and\n- review of critical third-party vendors at least annually.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "vulnerability-scans-conducted",
+      "name": "Vulnerabilities scanned and remediated",
+      "description": "Host-based vulnerability scans are performed at least quarterly on all external-facing systems. Critical and high vulnerabilities are tracked to remediation.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "whistleblower-policy-established",
+      "name": "Whistleblower policy established",
+      "description": "The company has established a formalized whistleblower policy, and an anonymous communication channel is in place for users to report potential issues or fraud concerns.",
+      "categories": ["Administrative"]
+    }
+  ]
+}

@@ -1,0 +1,991 @@
+{
+  "standard": {
+    "name": "hipaa",
+    "principles": [
+      {
+        "name": "Administrative safeguards",
+        "section": "164.308",
+        "requirements": [
+          {
+            "name": "Security management process: Implement policies and procedures to prevent, detect, contain and correct security violations.",
+            "section": "164.308(a)(1)(i)",
+            "controlIds": ["security-management-process"]
+          },
+          {
+            "name": "Risk analysis: Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information held by the covered entity or business associate.",
+            "section": "164.308(a)(1)(ii)(A)",
+            "controlIds": ["risk-analysis"]
+          },
+          {
+            "name": "Risk management: Implement security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with § 164.306(a). Factors identified in §164.306 include:\n· The size, complexity, capability of the covered entity;\n· The covered entity’s technical infrastructure;\n· The costs of security measures; and\n· The probability and criticality of potential risks to ePHI",
+            "section": "164.308(a)(1)(ii)(B)",
+            "controlIds": ["risk-management"]
+          },
+          {
+            "name": "Sanction policy: Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity or business associate.",
+            "section": "164.308(a)(1)(ii)(C)",
+            "controlIds": ["sanction-policy"]
+          },
+          {
+            "name": "Information system activity review: Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.",
+            "section": "164.308(a)(1)(ii)(D)",
+            "controlIds": ["information-system-activity-reviewed"]
+          },
+          {
+            "name": "Assigned security responsibility: Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the covered entity or business associate.",
+            "section": "164.308(a)(2)",
+            "controlIds": ["security-responsibility"]
+          },
+          {
+            "name": "Workforce security: Implement policies and procedures to ensure that all members of its workforce have appropriate access to electronic protected health information, as provided under the Information Access Management standard and to prevent those who do not have appropriate access from obtaining access to ePHI. Policies and procedures should include Authorization and/or Supervision procedures, Workforce Clearance Procedure, and Termination Procedures.",
+            "section": "164.308(a)(3)(i)",
+            "controlIds": ["workforce-security"]
+          },
+          {
+            "name": "Authorization and/or supervision: Implement procedures for the authorization and/or supervision of workforce members who work with electronic protected health information or in locations where it might be accessed.",
+            "section": "164.308(a)(3)(ii)(A)",
+            "controlIds": ["authorization-supervision"]
+          },
+          {
+            "name": "Workforce clearance procedure: Implement procedures to determine that the access of a workforce member to electronic protected health information is appropriate.",
+            "section": "164.308(a)(3)(ii)(B)",
+            "controlIds": ["workforce-clearance-procedure"]
+          },
+          {
+            "name": "Termination procedures:  Implement procedures for terminating access to electronic protected health information when the employment of, or other arrangement with, a workforce member ends or as required by determinations made as specified in paragraph (a)(3)(ii)(B) [the Workforce Clearance Procedure] of this section.",
+            "section": "164.308(a)(3)(ii)(C)",
+            "controlIds": ["establish-termination-procedures"]
+          },
+          {
+            "name": "Information access management: Implement policies and procedures for authorizing access to electronic protected health information that are consistent with the applicable requirements of the Privacy Rule.\n\nPolicies and procedures should include: Isolating Health Care Clearinghouse Functions, Access Authorization and Access Establishment and Modification.",
+            "section": "164.308(a)(4)(i)",
+            "controlIds": ["information-access-management"]
+          },
+          {
+            "name": "Isolating healthcare clearinghouse functions: If a health care clearinghouse is part of a larger organization, the clearinghouse must implement policies and procedures that protect the electronic protected health information of the clearinghouse from unauthorized access by the larger organization.",
+            "section": "164.308(a)(4)(ii)(A)",
+            "controlIds": []
+          },
+          {
+            "name": "Access authorization: Implement policies and procedures for granting access to ePHI, for example, through access to a workstation, transaction, program, process, or other mechanism.",
+            "section": "164.308(a)(4)(ii)(B)",
+            "controlIds": ["access-authorization"]
+          },
+          {
+            "name": "Access establishment and modification: Implement policies and procedures that, based upon the covered entity's or the business associate’s access authorization policies, establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process.",
+            "section": "164.308(a)(4)(ii)(C)",
+            "controlIds": ["access-established-reviewed-modified"]
+          },
+          {
+            "name": "Security awareness and training: Implement a security awareness and training program for all members of the workforce (including management).\n\nComponent of the Security Awareness and Training program should include Security Reminders, Protection Malicious Software, Log-in Monitoring and Password Management.",
+            "section": "164.308(a)(5)(i)",
+            "controlIds": ["security-awareness-training"]
+          },
+          {
+            "name": "Security reminders: Periodic security updates.",
+            "section": "164.308(a)(5)(ii)(A)",
+            "controlIds": ["security-reminders"]
+          },
+          {
+            "name": "Protection from malicious software: Procedures for guarding against, detecting, and reporting malicious software.",
+            "section": "164.308(a)(5)(ii)(B)",
+            "controlIds": ["protection-from-malicious-software"]
+          },
+          {
+            "name": "Log-in monitoring: Procedures for monitoring log-in attempts and reporting discrepancies.",
+            "section": "164.308(a)(5)(ii)(C)",
+            "controlIds": ["log-in-monitoring"]
+          },
+          {
+            "name": "Password management: Procedures for creating, changing, and safeguarding passwords.",
+            "section": "164.308(a)(5)(ii)(D)",
+            "controlIds": ["password-management"]
+          },
+          {
+            "name": "Security incident procedures: Implement policies and procedures to address security incidents. Policies and procedures should include response reporting.",
+            "section": "164.308(a)(6)(i)",
+            "controlIds": ["security-incident-procedures"]
+          },
+          {
+            "name": "Response and reporting: Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity or business associate; and document security incidents and their outcomes.",
+            "section": "164.308(a)(6)(ii)",
+            "controlIds": ["response-and-reporting"]
+          },
+          {
+            "name": "Contingency plan: Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain ePHI.",
+            "section": "164.308(a)(7)(i)",
+            "controlIds": ["contingency-plan"]
+          },
+          {
+            "name": "Data backup plan: Establish and implement procedures to create and maintain retrievable exact copies of ePHI.",
+            "section": "164.308(a)(7)(ii)(A)",
+            "controlIds": ["data-backup-plan"]
+          },
+          {
+            "name": "Disaster recovery plan: Establish (and implement as needed) procedures to restore any loss of data.",
+            "section": "164.308(a)(7)(ii)(B)",
+            "controlIds": ["disaster-recovery-plan"]
+          },
+          {
+            "name": "Emergency Mode Operation Plan: Establish and implement procedures to enable continuation of critical business processes for protection of the security of ePHI while operating in emergency mode.",
+            "section": "164.308(a)(7)(ii)(C)",
+            "controlIds": ["emergency-mode-operation-plan"]
+          },
+          {
+            "name": "Testing and revision procedures: Implement procedures for periodic testing and revision of contingency plans.",
+            "section": "164.308(a)(7)(ii)(D)",
+            "controlIds": ["contingency-plan-testing-and-revision-procedure"]
+          },
+          {
+            "name": "Applications and data criticality analysis: Assess the relative criticality of specific applications and data in support of another contingency plan component.",
+            "section": "164.308(a)(7)(ii)(E)",
+            "controlIds": ["application-and-data-criticality-analysis"]
+          },
+          {
+            "name": "Evaluation: Perform a periodic technical and nontechnical evaluation based initially upon the standards implemented under this rule and subsequently, in response to environmental or operations changes affecting the security of ePHI, that establishes the extent to which an entity’s security policies and procedures meet the requirement.",
+            "section": "164.308(a)(8)",
+            "controlIds": ["security-controls-evaluation"]
+          },
+          {
+            "name": "Business associate contracts and other arrangements: A covered entity, in accordance with 164.306 [The Security Standards: General Rules], may permit a business associate to create, receive, maintain, or transmit ePHI on the covered entity’s behalf only if the covered entity obtains satisfactory assurances, in accordance with 164.314 [the Organization Requirements] that the business associate will appropriately safeguard the information.",
+            "section": "164.308(b)(1)",
+            "controlIds": ["business-associate-agreements-with-vendors"]
+          },
+          {
+            "name": "A business associate may permit a business that is a subcontractor to create, receive, maintain, or transmit ePHI on its behalf only if the business associate obtains satisfactory assurances, in accordance with §164.314(a), that the subcontractor will appropriately safeguard the information.",
+            "section": "164.308(b)(2)",
+            "controlIds": ["business-associate-agreements-subcontractors"]
+          },
+          {
+            "name": "Written contract or other arrangement: Document the satisfactory assurances required by paragraph (b)(1) or (b2) above of this section through a written or other arrangement with the business associate that meets the applicable requirements of 164.314(a) [the Organizational Requirements]",
+            "section": "164.308(b)(3)",
+            "controlIds": ["written-business-associate-agreements"]
+          },
+          {
+            "name": "Arrangement: Document the satisfactory assurances required by paragraph (b)(1) [the Business Associates Contracts and Other Arrangements] of this section through a written or other arrangement with the business associate that meets the applicable requirements of 164.314(a).",
+            "section": "164.308(b)(4)",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Physical safeguards",
+        "section": "164.310",
+        "requirements": [
+          {
+            "name": "Facility access controls: Implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed, while ensuring that properly authorized access is allowed.",
+            "section": "164.310(a)(1)",
+            "controlIds": ["facility-access-controls"]
+          },
+          {
+            "name": "Contingency operations: Establish (and implement as needed) procedures that allow facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan in the event of an emergency.",
+            "section": "164.310(a)(2)(i)",
+            "controlIds": ["contingency-operations"]
+          },
+          {
+            "name": "Facility security plan: Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft.",
+            "section": "164.310(a)(2)(ii)",
+            "controlIds": ["facility-security-plan"]
+          },
+          {
+            "name": "Access control and validation procedures: Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision.",
+            "section": "164.310(a)(2)(iii)",
+            "controlIds": ["access-control-and-validation-procedures"]
+          },
+          {
+            "name": "Maintenance records: Implement policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors, and locks).",
+            "section": "164.310(a)(2)(iv)",
+            "controlIds": ["maintenance-records"]
+          },
+          {
+            "name": "Workstation use: Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access ePHI.",
+            "section": "164.310(b)",
+            "controlIds": ["workstation-security-policies"]
+          },
+          {
+            "name": "Workstation security: Covered entities should implement physical safeguards for all workstations that access ePHI, to restrict access to authorized users.",
+            "section": "164.310(c)",
+            "controlIds": ["workstation-security-implemented"]
+          },
+          {
+            "name": "Device and media control: Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain ePHI into and out of a facility, and the movement of these items within the facility.",
+            "section": "164.310(d)(1)",
+            "controlIds": ["media-removal"]
+          },
+          {
+            "name": "Disposal: Implement policies and procedures to address the final disposition of ePHI, and/or the hardware or electronic media on which it is stored.",
+            "section": "164.310(d)(2)(i)",
+            "controlIds": ["device-media-disposal"]
+          },
+          {
+            "name": "Media re-use: Implement procedures for removal of ePHI from electronic media before the media are made available for re-use.\nEnsure that ePHI previously stored on electronic media cannot be accessed and reused.\nIdentify removable media and their use.\nEnsure that ePHI is removed from reusable media before they are used to record new information.",
+            "section": "164.310(d)(2)(ii)",
+            "controlIds": ["media-re-use"]
+          },
+          {
+            "name": "Accountability: Maintain a record of the movements of hardware and electronic media and any person responsible therefore.",
+            "section": "164.310(d)(2)(iii)",
+            "controlIds": ["device-media-movement"]
+          },
+          {
+            "name": "Data backup and storage: Create a retrievable, exact copy of ePHI, when needed, before movement of equipment.",
+            "section": "164.310(d)(2)(iv)",
+            "controlIds": ["data-backup-and-storage"]
+          }
+        ]
+      },
+      {
+        "name": "Technical safeguards",
+        "section": "164.312",
+        "requirements": [
+          {
+            "name": "Access control: Implement technical policies and procedures for electronic information systems that maintain ePHI to allow access only to those persons or software programs that have been granted access rights as specified in §164.308(a)(4) [Information Access Management].",
+            "section": "164.312(a)(1)",
+            "controlIds": ["access-control"]
+          },
+          {
+            "name": "Unique user identification: Assign a unique name and/or number for identifying and tracking user identity.\nEnsure that system activity can be traced to a specific user.\nEnsure that the necessary data is available in the system logs to support audit and other related business functions.",
+            "section": "164.312(a)(2)(i)",
+            "controlIds": ["unique-user-identification"]
+          },
+          {
+            "name": "Emergency access procedure: Establish (and implement as needed) procedures for obtaining necessary ePHI during an emergency.",
+            "section": "164.312(a)(2)(ii)",
+            "controlIds": ["emergency-access-procedure"]
+          },
+          {
+            "name": "Automatic logoff: Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.",
+            "section": "164.312(a)(2)(iii)",
+            "controlIds": ["automatic-log-off"]
+          },
+          {
+            "name": "Encryption and decryption: Implement a mechanism to encrypt and decrypt ePHI.",
+            "section": "164.312(a)(2)(iv)",
+            "controlIds": ["data-encryption-decryption"]
+          },
+          {
+            "name": "Audit controls: Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use ePHI.",
+            "section": "164.312(b)",
+            "controlIds": ["audit-controls"]
+          },
+          {
+            "name": "Integrity: Implement policies and procedures to protect ePHI from improper alteration or destruction.",
+            "section": "164.312(c)(1)",
+            "controlIds": ["data-integrity"]
+          },
+          {
+            "name": "Mechanisms to authenticate ePHI: Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner.",
+            "section": "164.312(c)(2)",
+            "controlIds": ["mechanism-authenticate-information"]
+          },
+          {
+            "name": "Person or entity authentication: Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.",
+            "section": "164.312(d)",
+            "controlIds": ["person-or-entity-authentication"]
+          },
+          {
+            "name": "Transmission security: Implement technical security measures to guard against unauthorized access to ePHI that is being transmitted over an electronic communications network.",
+            "section": "164.312(e)(1)",
+            "controlIds": ["data-transmission-security"]
+          },
+          {
+            "name": "Integrity controls: Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of.",
+            "section": "164.312(e)(2)(i)",
+            "controlIds": ["data-transmission-integrity"]
+          },
+          {
+            "name": "Encryption: Implement a mechanism to encrypt ePHI whenever deemed appropriate.",
+            "section": "164.312(e)(2)(ii)",
+            "controlIds": ["data-transmission-encrypted"]
+          }
+        ]
+      },
+      {
+        "name": "Organizational requirements",
+        "section": "164.314",
+        "requirements": [
+          {
+            "name": "Business associate contracts or other arrangements: A covered entity is not in compliance with the standards in § 164.502(e) if the covered entity knew of a pattern of an activity or practice of the business associate that constituted a material breach or violation of the business associate’s obligation under the contract or other arrangement, unless the covered entity took reasonable steps to cure the breach or end the violation, as applicable, and, if such steps were unsuccessful - (A) Terminated the contract or arrangement, if feasible; or (B) If termination is not feasible, reported the problem to the Secretary.”",
+            "section": "164.314(a)(1)",
+            "controlIds": ["business-associate-agreements"]
+          },
+          {
+            "name": "Business Associate Contracts: A business associate contract must provide that the business associate will: “Implement safeguards that protect the confidentiality, integrity, and availability of the electronic protected health…; Report to the covered entity any security incident of which it becomes aware; Authorize termination of the contract, if the covered entity determines that the business associate has violated a material term of the contract.”",
+            "section": "164.314(a)(2)(i)",
+            "controlIds": [
+              "business-associate-agreements-comply",
+              "business-associate-agreements-security-incidents-reported",
+              "subcontractor-business-associate-agreements-enforced"
+            ]
+          },
+          {
+            "name": "Other Arrangement: The Other Arrangements implementation specifications provide that when a covered entity and its business associate are both government entities, the covered entity may comply with the standard in either of two alternative ways: (1) if it enters into a memorandum of understanding (MOU) with the business associate and the MOU contains terms which accomplish the objectives of the Business Associate Contracts section of the Security Rule; or (2) if other law (including regulations adopted by the covered entity or its business associate) contain requirements applicable to the business associate that accomplish the objectives of the business associate contract.",
+            "section": "164.314(a)(2)(ii)",
+            "controlIds": []
+          },
+          {
+            "name": "Business associate contracts with subcontractors: The requirements of paragraphs (a)(2)(i) and (a)(2)(ii) of this section apply to the contract or other arrangement between a business associate and a subcontractor required by §164.308(b)(4) in the same manner as such requirements apply to contracts or other arrangements between a covered entity and business associate.",
+            "section": "164.314(a)(2)(iii)",
+            "controlIds": ["business-associate-agreements-with-subcontractors"]
+          },
+          {
+            "name": "Requirements for Group Health Plans: Except when the only ePHI disclosed to a plan sponsor is disclosed pursuant to §164.504(f)(1)(ii) or (iii), or as authorized under §164.508, a group health plan must ensure that its plan documents provide that the plan sponsor will reasonably and appropriately safeguard ePHI created, received, maintained, or transmitted to or by the plan sponsor on behalf of the group health plan.",
+            "section": "164.314(b)(1)",
+            "controlIds": []
+          },
+          {
+            "name": "Implementation Specifications: The plan documents of the group health plan must be amended to incorporate provisions to require the plan sponsor to:\n            - Safeguards: Implement administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the ePHI that it creates, receives, maintains, or transmits on behalf of the group health plan\"\n            - Separation: Ensure that the adequate separation required by §164.504(f)(2)(iii) is supported by reasonable and appropriate security measure,\n            ",
+            "section": "164.314(b)(2)",
+            "controlIds": []
+          },
+          {
+            "name": "Safeguards: Implement administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the ePHI that it creates, receives, maintains, or transmits on behalf of the group health plan",
+            "section": "164.314(b)(2)(i)",
+            "controlIds": ["group-health-plan-controls"]
+          },
+          {
+            "name": "Separation: Ensure that the adequate separation required by §164.504(f)(2)(iii) is supported by reasonable and appropriate security measures",
+            "section": "164.314(b)(2)(ii)",
+            "controlIds": []
+          },
+          {
+            "name": "Agreement: Ensure that any agent, including a subcontractor, to whom it provides this information agrees to implement reasonable and appropriate security measures to protect the information",
+            "section": "164.314(b)(2)(iii)",
+            "controlIds": ["group-health-plan-information-protection"]
+          },
+          {
+            "name": "Reporting: Report to the group health plan any security incident of which it becomes aware",
+            "section": "164.314(b)(2)(iv)",
+            "controlIds": ["group-health-plan-security-incidents"]
+          }
+        ]
+      },
+      {
+        "name": "Policies, procedures and documentation requirements",
+        "section": "164.316",
+        "requirements": [
+          {
+            "name": "Policies and Procedures: Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, or other requirements of this subpart, taking into account those factors specified in 164.306(b)(2)(i), (ii), (iii), and (iv) [the Security Standards: General Rules, Flexibility of Approach]. This standard is not to be construed to permit or excuse an action that violates any other standard. A covered entity or business associate may change its policies and procedures at any time, provided that the changes are documented and are implemented in accordance with this subpart.",
+            "section": "164.316(a)",
+            "controlIds": ["policies-procedures-created"]
+          },
+          {
+            "name": "Documentation: Maintain the policies and procedures implemented to comply with this subpart in written (which may be electronic) form; and (ii) if an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment.",
+            "section": "164.316(b)(1)(i)",
+            "controlIds": ["policies-procedures-documented"]
+          },
+          {
+            "name": "Documentation: if an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment.",
+            "section": "164.316(b)(1)(ii)",
+            "controlIds": ["policies-procedures-activity-documented"]
+          },
+          {
+            "name": "Time Limit: Retain the documentation required by paragraph (b) (1) of this section for 6 years for the date of its creation or the date when it last was in effect, whichever is later.",
+            "section": "164.316(b)(2)(i)",
+            "controlIds": ["data-retention-time-limit"]
+          },
+          {
+            "name": "Availability: Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains",
+            "section": "164.316(b)(2)(ii)",
+            "controlIds": ["policies-procedures-available"]
+          },
+          {
+            "name": "Updates: Review documentation periodically, and update as needed, in response to environmental or operational changes affecting the security of the ePHI.",
+            "section": "164.316(b)(2)(iii)",
+            "controlIds": ["policies-procedures-updated"]
+          }
+        ]
+      },
+      {
+        "name": "Notification to individuals",
+        "section": "164.404",
+        "requirements": [
+          {
+            "name": "A covered entity shall, following the discovery of a breach of unsecured protected health information, notify each individual whose unsecured protected health information has been, or is reasonably believed by the covered entity to have been, accessed, acquired, used or disclosed as a result of such breach.",
+            "section": "164.404(a)",
+            "controlIds": []
+          },
+          {
+            "name": "For purposes of paragraph (a)(1) of this section, §§ 164.406(a), and 164.408(a), a breach shall be treated as discovered by a covered entity as of the first day on which such breach is known to the covered entity, or, by exercising reasonable diligence would have been known to the covered entity. A covered entity shall be deemed to have knowledge of a breach if such breach is known, or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is a workforce member or agent of the covered entity (determined in accordance with the federal common law of agency).",
+            "section": "164.404 (2)",
+            "controlIds": []
+          },
+          {
+            "name": "Except as provided in §164.412, a covered entity shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 days after discovery of a breach.",
+            "section": "164.404(b)",
+            "controlIds": []
+          },
+          {
+            "name": "Elements of the notification required by paragraph (a) of this section shall include to the extent possible:\n(A) a brief description of what happened, including the date of the breach and the date of the discovery of the breach, if known;\n(B) a description of the types of unsecured protected health information that were involved in the breach (Such as whether full name, social security number, date of birth, home address, account number, diagnosis, disability code, or other types of information were involved);\n(C) any steps the individual should take to protect themselves from potential harm resulting from the breach;\n(D) a brief description of what the covered entity is doing to investigation the breach, to mitigate harm to individuals, and to protect against further breaches; and\n(E) contact procedures for individuals to ask questions or learn additional information which should include a toll-free number, an email address, website, or postal address.",
+            "section": "164.404(c)(1)",
+            "controlIds": []
+          },
+          {
+            "name": "The notification required by paragraph (a) of this section shall be written in plain language.",
+            "section": "164.404(c)(2)",
+            "controlIds": []
+          },
+          {
+            "name": "The notification required by paragraph (a) shall be provided in the following form:\nWritten notification by first-class mail to the individual at the last known address of the individual or, if the individual agrees to electronic notice and such agreement has not been withdrawn, by electronic mail. The notification may be provided in one or more mailings as more information becomes available.",
+            "section": "164.404(d)(1)(i)",
+            "controlIds": []
+          },
+          {
+            "name": "The notification required by paragraph (a) shall be provided in the following form:\nIf the covered entity knows the individual is deceased and has the address of the next of kin or personal representative of the individual (as specified under §164.502(g)(4) of subpart E) , written notification by first-class mail to either the next of kin or personal representative of the individual. The notification may be provided in one or more mailings as information is available.",
+            "section": "164.404(d)(1)(ii)",
+            "controlIds": []
+          },
+          {
+            "name": "Substitute notice. In the case where there is insufficient or out-of-date contact information that precludes written notification to the individual under this paragraph (d)(1)(i) of this section, a substitute form of notice reasonable calculated to reach the individual shall be provided. Substitute notice need not be provided in the case in which there is insufficient or out-of-date contact information that precludes written notification to the next of kin or personal representative of the individual under paragraph (d)(1)(ii).",
+            "section": "164.404(d)(2)",
+            "controlIds": []
+          },
+          {
+            "name": "In the case where there is insufficient or out-of-date contact information for fewer than 10 individuals, then substitute notice may be provided by an alternative form of written notice, telephone or other means.",
+            "section": "164.404(d)(2)(i)",
+            "controlIds": []
+          },
+          {
+            "name": "In the case in which there is insufficient or out-of-date contact information for 10 or more individuals, then such substitute notice shall: (A) be in the form of either a conspicuous posting for a period of 90 days on the home page of the web site of the covered entity involved, or conspicuous notice in a major print or broadcast media in geographic areas where the individuals affected by the breach likely reside; and (B) include a toll-free number that remains active for at least 90 days where an individual can learn whether the individual's secured protected health information may be included in the breach.",
+            "section": "164.404(d)(2)(ii)",
+            "controlIds": []
+          },
+          {
+            "name": "In any case deemed by the covered entity to require urgency because of possible imminent misuse of unsecured protected health information, the covered entity may provide information to individuals by telephone or other means, as appropriate, in addition to notice provided under paragraph (d)(1) of this section.",
+            "section": "164.404(d)(3)",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Notification to the media",
+        "section": "164.406",
+        "requirements": [
+          {
+            "name": "For a breach of unsecured protected health information involving more than 500 residents of a State or jurisdiction, a covered entity shall, following the discovery of the breach, notify prominent media outlets serving the State or jurisdiction",
+            "section": "164.406(a)",
+            "controlIds": []
+          },
+          {
+            "name": "Except as provided in §164.412, a covered entity shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 calendar days after discovery of a breach.",
+            "section": "164.406(b)",
+            "controlIds": []
+          },
+          {
+            "name": "The content of the notification required by paragraph (a) shall meet the requirements of §164.404(c)",
+            "section": "164.406(c)",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Notification to the Secretary.",
+        "section": "164.408",
+        "requirements": [
+          {
+            "name": "A covered entity shall, following the discovery of a breach of unsecured protected health information as provided in §164.404(a)(2), notify the Secretary.",
+            "section": "164.408(a)",
+            "controlIds": []
+          },
+          {
+            "name": "For breaches of unsecured protected health information involving 500 or more individuals, a covered entity shall, expect as provided in §164.412, provide the notification required by paragraph (a) contemporaneously with the notice required by §164.404(a) and in the manner specified on the HHS web site.",
+            "section": "164.408(b)",
+            "controlIds": []
+          },
+          {
+            "name": "For breaches of unsecured protected health information involving less than 500 individuals, a covered entity shall maintain a log or other documentation of such breaches and, not later than 60 days after the end of each calendar year, provide the notification required by paragraph (a) of this section for breaches occurring during the preceding calendar year, in a manner specified on the HHS web site.",
+            "section": "164.408(c)",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Notification by a business associate in the case of breach of unsecured Protected Health Information (PHI)",
+        "section": "164.410",
+        "requirements": [
+          {
+            "name": "A business associate shall, following the discovery of a breach of unsecured protected health information, notify the covered entity of such breach.",
+            "section": "164.410(a)(1)",
+            "controlIds": ["notification-of-breach"]
+          },
+          {
+            "name": "For the purposes of paragraph (1) of this section, a breach shall be treated as discovered by a business associate as of the first day on which such breach is known to the business associate or, by exercising reasonable diligence, would have been known to the business associate. A business associate shall be deemed to have knowledge of a breach if the breach is known, or by exercising reasonable diligence would have been known, to any person, other than the person committing the breach, who is an employee, officer, or other agent of the business associate (determined in accordance with the federal common law of agency).",
+            "section": "164.410(a)(2)",
+            "controlIds": ["notification-of-breach"]
+          },
+          {
+            "name": "Except as provided in §164.412, a business associate shall provide the notification required by paragraph (a) of this section without unreasonable delay and in no case later than 60 calendar days after the discovery of a breach.",
+            "section": "164.410(b)",
+            "controlIds": ["timeliness-of-breach-notification"]
+          },
+          {
+            "name": "The notification required by paragraph (a) of this section shall include, to the extent possible, the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been accessed, acquired, used or disclosure during the breach.",
+            "section": "164.410(c)(1)",
+            "controlIds": ["breach-identification-of-individuals"]
+          },
+          {
+            "name": "A business associate shall provide the covered entity with any other information that the covered entity is required to include in the notification to the individual under §164.404(c) at the time of the notification required by paragraph (a) of this section or promptly thereafter as information becomes available.",
+            "section": "164.410(c)(2)",
+            "controlIds": ["additional-breach-information"]
+          }
+        ]
+      },
+      {
+        "name": "Law enforcement delay",
+        "section": "164.412",
+        "requirements": [
+          {
+            "name": "If a law enforcement official states to a covered entity or business associate that a notification, notice or posting required under this subpart would impede a criminal investigation or cause damage to national security, a covered entity or business associate shall: (a) If the statement is in writing and specifies the time for which a delay is required, delay such notification, notice, or posting for the time period specified by the official; or (b) If the statement is made orally, document the statement, including the identity of the official making the statement, and delay the notification, notice, or posting temporarily and no longer than 30 days from the date of the oral statement, unless a written statement as described in paragraph (a) of this section is submitted during that time.",
+            "section": "164.412",
+            "controlIds": []
+          }
+        ]
+      },
+      {
+        "name": "Administrative requirements and burden of proof",
+        "section": "164.414",
+        "requirements": [
+          {
+            "name": "Administrative requirements and burden of proof:\n(a) covered entity is required to comply with the administrative requirements of § 164.530(b), (d), (e), (g), (h), (i), and (j) with respect to the requirements of this subpart.\n(b) In the event of a use or disclosure in violation of subpart E, the covered entity or business associate; as applicable, shall have the burden of demonstrating that all notifications were made as required by this subpart or that the use or disclosures did not constitute a breach as defined at §164.402.\n\nSee §164.530 for definition of breach.",
+            "section": "164.414",
+            "controlIds": []
+          }
+        ]
+      }
+    ]
+  },
+  "controlDetail": [
+    {
+      "id": "access-authorization",
+      "name": "Access authorized",
+      "description": "The company has implemented policies and procedures for granting access to electronic protected health information (for example, through access to a workstation, transaction, program, process, or other mechanism).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "access-control",
+      "name": "Access controls applied",
+      "description": "The company implements technical policies and procedures for electronic information systems that maintain electronic protected health information (ePHI) to allow access only to those persons or software programs that have been granted access rights.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "access-control-and-validation-procedures",
+      "name": "Access control and validation procedures implemented",
+      "description": "The company has implemented procedures to control and validate a person's access to facilities based on their role or function, including visitor control, and control of access to software programs for testing and revision.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "access-established-reviewed-modified",
+      "name": "Access established, reviewed and modified",
+      "description": "The company has implemented policies and procedures that, based upon the entity’s access authorization policies, establish, document, review, and modify a user’s right of access to a workstation, transaction, program, or process.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "additional-breach-information",
+      "name": "Additional breach information",
+      "description": "A business associate provides the company, as a covered entity, with any other available information that the company is required to include in notification to the individual (described in 164.404(c)) at the time of the notification or promptly thereafter as information becomes available.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "application-and-data-criticality-analysis",
+      "name": "Application and data criticality analyzed",
+      "description": "The company assesses the relative criticality of specific applications and data in support of other contingency plan components.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "audit-controls",
+      "name": "Audit controls implemented",
+      "description": "The company has implemented hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information (ePHI).",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "authorization-supervision",
+      "name": "Workforce authorized and/or supervised",
+      "description": "The company has implemented procedures for the authorization and/or supervision of workforce members who work with electronic protected health information (ePHI) or in locations where it might be accessed.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "automatic-log-off",
+      "name": "Log-off automated",
+      "description": "The company has implemented electronic procedures that terminate an electronic session after a predetermined time of inactivity.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "breach-identification-of-individuals",
+      "name": "Breach notice identification of individuals",
+      "description": "A business associate's breach notification includes, to the extent possible, the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been, accessed, acquired, used, or disclosed during the breach.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements",
+      "name": "Business associate agreements required",
+      "description": "The company requires an agreement contract or other arrangement from business associates that meets administrative safeguards (§ 164.308(b)(3)) and the requirements of the organization (§ 164.314(a)(2)(i), (a)(2)(ii), or (a)(2)(iii)) as applicable.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements-comply",
+      "name": "Business associate agreements comply",
+      "description": "The company requires that business associate agreements include compliance with the applicable requirements.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements-security-incidents-reported",
+      "name": "Business associate security incidents reported",
+      "description": "The company requires business associates and subcontractors to report any security incident of which it becomes aware, including breaches of unsecured protected health information as required by the Breach Notification rules (§ 164.410).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements-subcontractors",
+      "name": "Business associate contracts with subcontractors established",
+      "description": "The company, as a business associate, may permit a business associate that is a subcontractor to create, receive, maintain, or transmit electronic Protected Health Information (ePHI) on its behalf only if the company can obtain satisfactory assurances, in accordance with company policies, that the subcontractor will appropriately safeguard the information.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements-with-subcontractors",
+      "name": "Business associate agreements with subcontractors obtained",
+      "description": "The company requires that the requirements described for § 164.314(a)(2)(i) and § 164.314(a)(2)(ii) apply to the agreement contract or other arrangements between a business associate and a subcontractor in the same manner as such requirements apply to agreement contracts or other arrangements between the company and the business associate.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "business-associate-agreements-with-vendors",
+      "name": "Business associate contracts with vendors established",
+      "description": "The company, as a covered entity, permits a business associate to create, receive, maintain, or transmit electronic Protected Health Information (ePHI) on the company's behalf only if it can obtain satisfactory assurances, in accordance with company policies, that the business associate will appropriately safeguard the information.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "contingency-operations",
+      "name": "Contingency operations established",
+      "description": "The company has established (and implements as needed) procedures that allow facility access in support of restoration of lost data under the disaster recovery plan and emergency mode operations plan in the event of an emergency.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "contingency-plan",
+      "name": "Contingency plan established",
+      "description": "The company has established (and implements as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain electronic Protected Health Information (ePHI).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "contingency-plan-testing-and-revision-procedure",
+      "name": "Contingency plan tested and revised",
+      "description": "The company has implemented procedures for periodic testing and revision of contingency plans.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "data-backup-and-storage",
+      "name": "Data backed up and stored",
+      "description": "The company creates a retrievable, exact copy of electronic protected health information (ePHI), when needed, before the movement of equipment.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-backup-plan",
+      "name": "Data backup plan implemented",
+      "description": "The company has established and implements procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI).",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-encryption-decryption",
+      "name": "Encryption and decryption controls implemented",
+      "description": "The company has implemented a mechanism to encrypt and decrypt electronic protected health information (ePHI).",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-integrity",
+      "name": "Data integrity maintained",
+      "description": "The company has implemented policies and procedures to protect electronic protected health information (ePHI) from improper alteration or destruction.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-retention-time-limit",
+      "name": "Data retention and time limit",
+      "description": "The company retains the documentation of policies, procedures and action, activity or assessments as required by paragraph 316(b)(1) of the HIPAA rules for 6 years from the date of its creation or the date when it last was in effect, whichever is later.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-transmission-encrypted",
+      "name": "Data transmission encrypted",
+      "description": "The company has implemented a mechanism to encrypt electronic protected health information (ePHI) whenever deemed appropriate.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-transmission-integrity",
+      "name": "Data transmission integrity maintained",
+      "description": "The company has implemented security measures to ensure that electronically transmitted electronic protected health information (ePHI) is not improperly modified without detection until disposed of.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "data-transmission-security",
+      "name": "Data transmission secured",
+      "description": "The company has implemented technical security measures to guard against unauthorized access to electronic protected health information (ePHI) that is being transmitted over an electronic communications network.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "device-media-disposal",
+      "name": "Device and media disposal policies implemented",
+      "description": "The company has implemented policies and procedures to address the final disposition of electronic Protected Health Information (ePHI), and/or the hardware or electronic media on which it is stored.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "device-media-movement",
+      "name": "Device and media movement recorded",
+      "description": "The company maintains a record of the movements of hardware and electronic media and any person responsible therefore.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "disaster-recovery-plan",
+      "name": "Disaster recovery plan established",
+      "description": "The company has established (and implements as needed) procedures to restore any loss of data.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "emergency-access-procedure",
+      "name": "Emergency access procedures established",
+      "description": "The company has established (and implements as needed) procedures for obtaining necessary electronic protected health information (ePHI) during an emergency.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "emergency-mode-operation-plan",
+      "name": "Emergency mode operation plan established",
+      "description": "The company has established (and implements as needed) procedures to enable the continuation of critical business processes for the protection and security of electronic Protected Health Information (ePHI) while operating in emergency mode.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "establish-termination-procedures",
+      "name": "Termination procedures established",
+      "description": "The company has implement procedures for terminating access to electronic protected health information (ePHI) when the employment of a workforce member ends or as required when access is no longer appropriate.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "facility-access-controls",
+      "name": "Facility access controls implemented",
+      "description": "The company has implemented policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed while ensuring that properly authorized access is allowed.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "facility-security-plan",
+      "name": "Facility security plan implemented",
+      "description": "The company has implemented policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "group-health-plan-controls",
+      "name": "Group health plan information controlled",
+      "description": "The company has implemented administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the electronic protected health information (ePHI) that it creates, receives, maintains, or transmits on behalf of the group health plan.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "group-health-plan-information-protection",
+      "name": "Group health plan information protected",
+      "description": "The company ensures that any agent to whom it provides this information agrees to implement reasonable and appropriate security measures to protect the information.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "group-health-plan-security-incidents",
+      "name": "Group health plan security incidents reported",
+      "description": "The company reports to the group health plan any security incident of which it becomes aware.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "information-access-management",
+      "name": "Information access managed",
+      "description": "The company has implemented policies and procedures for authorizing access to electronic protected health information (ePHI) that are consistent with the applicable privacy rule requirements (subpart E).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "information-system-activity-reviewed",
+      "name": "Information system activity reviewed",
+      "description": "The company has implemented procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "log-in-monitoring",
+      "name": "Log-ins monitored",
+      "description": "The company has implemented procedures for monitoring log-in attempts and reporting discrepancies.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "maintenance-records",
+      "name": "Maintenance records maintained",
+      "description": "The company has implemented policies and procedures to document repairs and modifications to the physical components of a facility which are related to security (for example, hardware, walls, doors, and locks).",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "mechanism-authenticate-information",
+      "name": "Mechanism to authenticate ePHI implemented",
+      "description": "The company has implemented electronic mechanisms to corroborate that electronic protected health information (ePHI) has not been altered or destroyed in an unauthorized manner.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "media-re-use",
+      "name": "Media re-use procedures implemented",
+      "description": "The company has implemented procedures for removal of electronic protected health information (ePHI) from electronic media before the media are made available for re-use.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "media-removal",
+      "name": "Media removal policies implemented",
+      "description": "The company has implemented policies and procedures that govern the receipt and removal of hardware and electronic media that contain electronic Protected Health Information (ePHI) into and out of a facility, and the movement of these items within the facility.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "notification-of-breach",
+      "name": "Notification of breach",
+      "description": "The company, as a covered entity, requires all business associates, following the discovery of a breach of unsecured protected health information, to notify the company of such breach.\n\nA breach is treated as discovered by a business associate as of the first day on which such breach is known to the business associate or, by exercising reasonable diligence, would have been known to the business associate. A business associate shall be deemed to have knowledge of a breach if the breach is known, or by exercising reasonable due diligence would have been known, to any person, other than the person committing the breach, who is an employee, officer, or other agents of the business associate (determined in accordance with the Federal common law of agency).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "password-management",
+      "name": "Passwords managed",
+      "description": "The company has implemented procedures for creating, changing, and safeguarding passwords.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "person-or-entity-authentication",
+      "name": "Person or entities authenticated",
+      "description": "The company has implemented procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "policies-procedures-activity-documented",
+      "name": "Policies and procedures activity documented",
+      "description": "Where an action, activity or assessment is required (described in § 164.316) to be documented, the company maintains a written (which may be electronic) record of the action, activity, or assessment.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "policies-procedures-available",
+      "name": "Policies and procedures available",
+      "description": "The company makes documentation available to those persons responsible for implementing the procedures to which the documentation pertains.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-procedures-created",
+      "name": "Policies and procedures created",
+      "description": "The company, as a covered entity or business associate, must, in accordance with the HIPAA security rule (§ 164.306), implement reasonable and appropriate policies and procedures to comply with implementation specifications, or other requirements, taking into account those factors specified in the HIPAA security general rules (§ 164.306(b)(2)(i), (ii), (iii), and (iv)). \n\nThis standard is not to be construed to permit or excuse an action that violates any other standard, implementation specification, or other requirements (§164.316).\n\nA covered entity or business associate may change its policies and procedures at any time, provided that the changes are documented and are implemented in accordance with this subpart.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-procedures-documented",
+      "name": "Policies and procedures documented",
+      "description": "The company maintains the policies and procedures implemented to comply with the HIPAA security safeguards in written (which may be electronic) form.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "policies-procedures-updated",
+      "name": "Policies and procedures updated",
+      "description": "The company reviews documentation periodically, and updates as needed, in response to environmental or operational changes affecting the security of electronic protected health information (ePHI).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "protection-from-malicious-software",
+      "name": "Malicious software protection implemented",
+      "description": "The company has implemented procedures for guarding against, detecting, and reporting malicious software.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "response-and-reporting",
+      "name": "Security incidents identified and reported",
+      "description": "The company identifies and responds to suspected or known security incidents, mitigates, to the extent practicable, harmful effects of security incidents that are known to the company, and documents security incidents and their outcomes.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "risk-analysis",
+      "name": "Risks analyzed",
+      "description": "The company has conducted an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information held in its system.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "risk-management",
+      "name": "Risks managed",
+      "description": "The company has implemented security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with the HIPAA security general requirements (described in § 164.306(a)).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "sanction-policy",
+      "name": "Sanction policy applied",
+      "description": "The company applies appropriate sanctions against workforce members who fail to comply with the security policies and procedures.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-awareness-training",
+      "name": "Security awareness training implemented",
+      "description": "The company has implemented a security awareness and training program for all members of its workforce, including management.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-controls-evaluation",
+      "name": "Security controls evaluated",
+      "description": "The company performs a periodic technical and nontechnical evaluation, based initially upon the HIPAA security rule, and subsequently, in response to environmental or operational changes affecting the security of electronic Protected Health Information (ePHI), establishes the extent to which the company's security policies and procedures meet the requirements of the HIPAA security rule (subpart C).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-incident-procedures",
+      "name": "Security incident procedures implemented",
+      "description": "The company has implemented policies and procedures to address security incidents.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-management-process",
+      "name": "Security violations managed",
+      "description": "The company has implemented policies and procedures to prevent, detect, contain, and correct security violations.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-reminders",
+      "name": "Security reminders updated",
+      "description": "The company conducts periodic security updates.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "security-responsibility",
+      "name": "Security responsibility assigned",
+      "description": "The company has identified a security official to be responsible for the development and implementation of the policies and procedures required by the HIPAA Security rules for the company.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "subcontractor-business-associate-agreements-enforced",
+      "name": "Subcontractor agreements enforced",
+      "description": "The company, in accordance with administrative safeguards (§ 164.308(b)(2)), ensures that any subcontractors that create, receive, maintain, or transmit electronic Protected Health Information (ePHI) on behalf of the business associate agree to comply with the applicable requirements by entering into an agreement contract or other arrangement that complies with organization requirements.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "timeliness-of-breach-notification",
+      "name": "Timeliness of breach notification",
+      "description": "Except in cases of a law enforcement delay ( § 164.412), a business associate provides the breach notification required by the company Breach Notification policy ( § 164.410(a)) without unreasonable delay and in no case later than 60 calendar days after the discovery of a breach.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "unique-user-identification",
+      "name": "Unique user identified",
+      "description": "The company assigns a unique name and/or number for identifying and tracking user identity.",
+      "categories": ["Technical"]
+    },
+    {
+      "id": "workforce-clearance-procedure",
+      "name": "Workforce clearance procedures implemented",
+      "description": "The company has implemented procedures to determine that the access of a workforce member to electronic protected health information (ePHI) is appropriate.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "workforce-security",
+      "name": "Workforce security implemented",
+      "description": "The company has implemented policies and procedures to ensure that all members of its workforce have appropriate access to electronic protected health information (ePHI), and to prevent those workforce members who do not have access from obtaining access to ePHI.",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "workstation-security-implemented",
+      "name": "Workstation security implemented",
+      "description": "The company has implemented physical safeguards for all workstations that access electronic protected health information (ePHI), to restrict access to authorized users.",
+      "categories": ["Physical"]
+    },
+    {
+      "id": "workstation-security-policies",
+      "name": "Workstation security policies implemented",
+      "description": "The company has implemented policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access electronic Protected Health Information (ePHI).",
+      "categories": ["Administrative"]
+    },
+    {
+      "id": "written-business-associate-agreements",
+      "name": "Business associate agreements documented",
+      "description": "The company documents the satisfactory assurances required for business associates and business-associated contractors through a written contract or other arrangements with the business associate that meets the applicable requirements of company policies.",
+      "categories": ["Administrative"]
+    }
+  ]
+}
