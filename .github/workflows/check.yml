@@ -1,0 +1,24 @@
+name: Enforce JSON schema
+
+on:
+  # Every push
+  push:
+  # Or manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  check:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install ajv-cli
+        run: | 
+          npm install -g ajv-cli
+
+      - name: Validate schemas
+        run: |
+          ajv -s schema.json -d "controls/*.json"
