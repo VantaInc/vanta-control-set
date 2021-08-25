@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/VantaInc/vanta-control-set/blob/main/schema.json",
+  "title": "Vanta Control Set",
+  "description": "JSON Schema for a Vanta Control Set",
+  "type": "object",
+  "properties": {
+    "standard": {
+      "description": "A compliance standard, split into sections",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "The name of the standard",
+          "type": "string"
+        },
+        "principles": {
+          "description": "Top level sections/principles of the standard",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "description": "The name of the principle",
+                "type": "string"
+              },
+              "section": {
+                "description": "The section in the official standard to which this principle refers",
+                "type": "string"
+              },
+              "requirements": {
+                "description": "Requirements of this principle",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "description": "The name of the requirement",
+                      "type": "string"
+                    },
+                    "section": {
+                      "description": "The subsection in the official standard to which this requirement refers",
+                      "type": "string"
+                    },
+                    "controlIds": {
+                      "description": "The IDs of all Vanta Controls that correspond to this requirement",
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "uniqueItems": true
+                    }
+                  },
+                  "required": ["name", "section", "controlIds"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["name", "section", "requirements"],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": ["name", "principles"],
+      "additionalProperties": false
+    },
+    "controlDetail": {
+      "description": "Detail about all Vanta Controls which appear in the standard",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "description": "The controlId as referenced by the standard requirements",
+            "type": "string"
+          },
+          "name": {
+            "description": "A short name for the control",
+            "type": "string"
+          },
+          "description": {
+            "description": "A description of the control",
+            "type": "string"
+          },
+          "categories": {
+            "description": "A list of categories to which this control belongs",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": ["id", "name", "description", "categories"],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": ["standard", "controlDetail"],
+  "additionalProperties": false
+}

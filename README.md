@@ -6,10 +6,10 @@ Vanta restores trust in internet businesses by giving startups an easy-to-use pl
 
 ## Vanta Control Set
 
-The Vanta Control Set maps common compliance standards (SOC 2, HIPAA) from their requirements to controls and provides them in an easy to consume machine-readable format.
+The Vanta Control Set maps common compliance standards from their requirements to controls and provides them in an easy to consume machine-readable format.
 
-- The SOC 2 controls represent a translation the SOC 2 criteria into actionable controls
-- The HIPAA control set is defined by HIPAA laws and is made available for the convenience of creating a consistent data format.
+- The SOC 2 controls represent a translation of the SOC 2 criteria into actionable controls
+- The HIPAA control set is defined by HIPAA laws and is made available for the convenience of creating a consistent data format
 
 ## Data Format
 
