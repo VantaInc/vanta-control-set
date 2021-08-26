@@ -1,4 +1,5 @@
 {
+  "NOTICE": "Copyright 2021 Vanta, Inc. (www.vanta.com)\n \nLicensed under the Apache License, Version 2.0 (the 'License');\nyou may not use, distribute or modify this software or file except in compliance with the License.\nYou may obtain a copy of the License at\n \n\t   https://www.apache.org/licenses/LICENSE-2.0.txt\n \nUnless required by applicable law or agreed to in writing, software and files\ndistributed under the License are distributed on an 'AS IS' BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n \nSee the License for the specific language governing permissions and\nlimitations under the License, including attribution obligations.",
   "standard": {
     "name": "soc2",
     "principles": [

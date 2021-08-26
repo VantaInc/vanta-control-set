@@ -5,6 +5,10 @@
   "description": "JSON Schema for a Vanta Control Set",
   "type": "object",
   "properties": {
+    "NOTICE": {
+      "description": "Copyright notice",
+      "type": "string"
+    },
     "standard": {
       "description": "A compliance standard, split into sections",
       "type": "object",
@@ -97,6 +101,6 @@
       "uniqueItems": true
     }
   },
-  "required": ["standard", "controlDetail"],
+  "required": ["standard", "controlDetail", "NOTICE"],
   "additionalProperties": false
 }
